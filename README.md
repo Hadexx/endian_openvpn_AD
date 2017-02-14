@@ -1,10 +1,13 @@
 # endian_openvpn_AD
 
-Integration proxy in Active Directoy before.
+#Integration proxy in Active Directoy before.
 
 /var/efw/openvpn/settings
 
 AUTHENTICATION_STACK=ldap,local
+
+# copy archive auth.sh to path /etc/openvpn
+# chmod +x auth.sh
 
 /etc/openvpn/openvpn.conf.tmpl
 
